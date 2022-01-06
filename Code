@@ -1,0 +1,82 @@
+.site-header__logo {
+    color: #ffffff;
+}
+
+header.site-header {
+  background-color: #ADA74D ;
+}
+  
+.site-header__mobile-nav {
+  background-color: #ADA74D !important;
+}
+
+footer.site-footer {
+   background-color: #212F3D  ;
+}
+
+div#shopify-section-header.shopify-section {
+  background-color: #212F3D  ;
+}
+
+#AccessibleNav .site-nav__link {
+ color: #fff;
+}
+
+body.index #Header #Logo {color:#ffffff}
+
+.icon-search {
+  color: white;
+  
+}
+
+.icon-cart {
+  color: white;
+  
+}
+
+.icon-login {
+  color: white;
+  
+}
+
+
+.icon-hamburger {
+  color: white;
+  
+}
+
+#SearchDrawer {
+  z-index:1001;
+}
+
+#shopify-section-header {
+  position: fixed;
+  z-index:1000;
+  left:0;
+  right:0;
+  -webkit-box-shadow:0px 2px 4px 0px rgba(0,0,0,.1);
+  -moz-box-shadow:0px 2px 4px 0px rgba(0,0,0,.1);
+  -ms-box-shadow:0px 2px 4px 0px rgba(0,0,0,.1);
+  -o-box-shadow:0px 2px 4px 0px rgba(0,0,0,.1);
+  box-shadow:0px 2px 4px 0px rgba(0,0,0,.1);
+  background-color: {{ settings.color_body_bg }};
+}
+
+#PageContainer {
+  padding-top: 80px;
+}
+
+@media screen and (max-width: 749px) {
+#PageContainer {
+  padding-top: 70px;
+}
+}
+
+@media screen and (max-width: 769px){
+  .slideshow__title, .slideshow__subtitle {
+     display: block !important;;
+  }
+  .slideshow__text-wrap--mobile{
+    display: none !important;;
+  }
+}
